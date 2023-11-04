@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/leadschoolassignment/static/css/main.26de66df.css",
+    "main.js": "/leadschoolassignment/static/js/main.5c16f16e.js",
+    "index.html": "/leadschoolassignment/index.html",
+    "main.26de66df.css.map": "/leadschoolassignment/static/css/main.26de66df.css.map",
+    "main.5c16f16e.js.map": "/leadschoolassignment/static/js/main.5c16f16e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26de66df.css",
+    "static/js/main.5c16f16e.js"
+  ]
+}
