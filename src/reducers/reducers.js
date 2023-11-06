@@ -1,5 +1,3 @@
-// reducers.js
-
 const initialState = {
   info: {
     state: "",

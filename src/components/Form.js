@@ -42,8 +42,18 @@ const Form = () => {
         });
       }
     } catch (e) {
-      alert("No data is found with this postal code");
+      alert("No data is found with this postal code!\nTry with different postal code.");
       dispatch({ type: "SET_IS_LOADING", payload: { data: false } });
+      dispatch({
+        type: "SET_INFO",
+        payload: {
+          data: {
+            country: "",
+            state: "",
+            place: "",
+          },
+        },
+      });
     }
   };
 
